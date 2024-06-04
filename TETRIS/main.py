@@ -10,7 +10,7 @@ title_font = pygame.font.Font(None, 40) #alapért. betű, 40es méret a pontok k
 score_surface = title_font.render("Score", True, Colors.white) #amitkiír, engedélyezés, betűtípus
                                                                #a Colors class-ból (colors.py)
 next_surface = title_font.render("Next", True, Colors.white)
-game_over_surface = title_font.render("GAME OVER \n NEW:\n   ANY KEY!", True, Colors.white)
+game_over_surface = title_font.render("GAME OVER \n      NEW:\n  ANY KEY!", True, Colors.white)
 
 score_rect = pygame.Rect(320, 55, 170, 60)  #(x,y, milyen széles, milyen magas)
 next_rect = pygame.Rect(320,215, 170, 180)  #háttér a soron következő elem kirajzolásáshoz
